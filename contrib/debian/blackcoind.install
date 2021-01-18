@@ -1,0 +1,2 @@
+debian/bin/minecraftcoind usr/bin
+src/minecraftcoind usr/lib/minecraftcoin
