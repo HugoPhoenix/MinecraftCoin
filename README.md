@@ -1,5 +1,6 @@
 MinecraftCoin(MCC) is a peer-to-peer cryptocurrency. MinecraftCoin uses proof-of-stake and proof-of-work systems and is open-source. Aimed to connect all Minecraft server with MinecraftCoin, unite the Players Community and we are going to setup a platform that people can buy and sell map, skin, plugin, mod, etc. on it using the coin.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Use the following instructions to set up the wallet (Linux)
 
 wget "https://github.com/HugoPhoenix/MinecraftCoin/releases/download/v1.0.0.0/minecraftcoin-daemon-linux.tar.gz" -O minecraftcoin-daemon-linux.tar.gz
@@ -26,7 +27,7 @@ Start your node with the following command.
 
 minecraftcoind
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Use the following instructions to set up the wallet (Window)
 
