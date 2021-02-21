@@ -39,11 +39,19 @@ Close your wallet and create the file minecraftcoin.conf in the folder “%APPDA
 Paste the following text(replace xxx) into minecraftcoin.conf and save the file.
 
 rpcuser=xxx 
+
 rpcpassword=xxx 
+
 rpcallowip=127.0.0.1 
+
 rpcport=27731 
+
 listen=1 
+
 server=1 
+
 addnode=node1.minecraftcoin.online 
+
 addnode=node2.minecraftcoin.online 
+
 addnode=node3.minecraftcoin.online 
