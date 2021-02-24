@@ -1078,12 +1078,10 @@ void MapPort(bool)
 #endif
 
 
-static const char *strMainNetDNSSed[][2] = {
-    {"node1.minecraftcoin.online", "node2.minecraftcoin.online"},
-    {"node3.minecraftcoin.online", "node4.minecraftcoin.online"},
-    {NULL, NULL}
-};
-    
+
+
+
+
 void ThreadDNSAddressSeed()
 {
     // goal: only query DNS seeds if address need is acute
