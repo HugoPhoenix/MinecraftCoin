@@ -971,7 +971,7 @@ static CBigNum GetProofOfStakeLimit(int nHeight)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-    int64_t nSubsidy = 100 * COIN;
+    int64_t nSubsidy = 300 * COIN;
                 
         if (nBestHeight == 0) {
          nSubsidy = 50000000 * COIN;
@@ -987,7 +987,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
 {
     int64_t nSubsidy;
     if (IsProtocolV3(pindexPrev->nTime))
-        nSubsidy = COIN * 1;
+        nSubsidy = COIN * 5;
     else
         nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 
@@ -996,7 +996,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     return nSubsidy + nFees;
 }
 
-static const int64_t nTargetTimespan = 1 * 30;
+static const int64_t nTargetTimespan = 1 * 60;
 
 // ppcoin: find last block index up to pindex
 const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfStake)
