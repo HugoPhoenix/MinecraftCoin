@@ -1,4 +1,4 @@
-# Project end, plz go to https://github.com/HugoPhoenix/Polar
+# Project ended, please go to https://github.com/HugoPhoenix/Polar
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 MinecraftCoin(MCC) is a peer-to-peer cryptocurrency. MinecraftCoin uses proof-of-stake and proof-of-work systems and is open-source. Aimed to connect all Minecraft server with MinecraftCoin, unite the Players Community and we are going to setup a platform that people can buy and sell map, skin, plugin, mod, etc. on it using the coin.
 
